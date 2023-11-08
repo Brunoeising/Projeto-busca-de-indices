@@ -1,5 +1,6 @@
 # Projeto-busca-de-indices
 aplicação desenvolvida para automatizar a coleta de dados econômicos essenciais como INPC, SELIC, taxas do BACEN, entre outros. O principal objetivo é fornecer uma ferramenta eficiente e confiável que agiliza o processo de obtenção e análise desses índices, os quais são vitais para a tomada de decisões econômicas e financeiras.
+https://portal-indices.vercel.app
 
 Características
 Automação da coleta de dados: Programa configurável para buscar dados atualizados de várias fontes oficiais.
