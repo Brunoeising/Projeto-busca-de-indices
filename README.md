@@ -7,3 +7,5 @@ Automação da coleta de dados: Programa configurável para buscar dados atualiz
 Suporte para múltiplos índices econômicos: Inclui suporte para uma variedade de índices, como INPC, SELIC e dados do Banco Central.
 Atualizações em tempo real: As informações são buscadas em tempo real ou em intervalos predefinidos.
 Facilidade de integração: A API pode ser integrada com outras aplicações ou sistemas para fornecer dados econômicos em tempo hábil.
+
+Todo o projeto foi desenvolvido por Bruno Henrique dos Santos. Boa parte dos detalhes do projeto estão disponiveis nesse repositório publico
