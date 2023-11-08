@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-desktop {
+  background-image: url('/bg-desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Adicione esta linha */
+}
+
+
+.sidebar-item {
+  list-style-type: none; /* Remove o padrão de marcadores de lista */
+  padding-left: 1.5em;   /* Espaço à esquerda para o marcador */
+  position: relative;
+}
+
+.sidebar-item::before {
+  content: "●";          /* O marcador */
+  position: absolute;
+  left: 0.5em;           /* Posicionamento do marcador */
+  color: #333;           /* Cor do marcador, ajuste conforme necessário */
+}
+
+/* Adicione alguma estilização para os links */
+.sidebar-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body[data-theme='dark'] {
+  background: url('/bg-desktop.jpg');
+  /* outros estilos */
+}
+
+
+
